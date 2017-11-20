@@ -1,6 +1,3 @@
-module
-export {
-  function words() {
-
-  }
+"use strict";
+module.exports = {
 }
