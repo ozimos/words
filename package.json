@@ -1,0 +1,36 @@
+{
+  "name": "words",
+  "version": "1.0.0",
+  "description": "a function called words that takes in a string argument and counts the occurrences of each word in the string. The function should return a JSON object showing the words identified, and their occurrences. For example for the input olly olly in come free, the output should be {olly: 2, in: 1, come: 1, free: 1}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozimos/words.git"
+  },
+  "keywords": [
+    "self",
+    "learning",
+    "clinic",
+    "tdd",
+    "eslint"
+  ],
+  "author": "Tovieye Moses Ozi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozimos/words/issues"
+  },
+  "homepage": "https://github.com/ozimos/words#readme",
+  "devDependencies": {
+    "babel-preset-airbnb": "^2.4.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "mocha": "^4.0.1"
+  }
+}
