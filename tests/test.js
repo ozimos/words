@@ -1,4 +1,4 @@
-const words = require ('../src/words');
+const myApp = require ('../src/words');
 
 const {
   assert
@@ -6,7 +6,7 @@ const {
 
 describe('words', () => {
   it('returns and object', () => {
-    assert.isObject(words("A sentence"));
+    assert.isObject(myApp.words("A sentence"));
   });
   
   
